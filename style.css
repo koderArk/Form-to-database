@@ -1,0 +1,55 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.contact{
+     text-align: center;
+}
+
+h1{
+  font-family: poppins,serif;
+  font-size: 40px;
+}
+
+.form{
+  font-family: poppins,serif;
+}
+.cname{
+  line-height: 2;
+  border-style: ridge;
+  border-radius: 5px;
+}
+
+.cquery{
+  line-height: 4;
+  border-style: ridge;
+  border-radius: 5px;
+}
+
+.csubmit{
+  font-family: poppins,serif;
+  font-size: 20px;
+  color: rgb(226,226,226);
+  background-color: teal;
+  padding: 7px 20px 7px 20px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: teal;
+  cursor: pointer;
+}
+
+.csubmit:hover{
+  background-color: black;
+}
+
+.cname:hover{
+  border-color: firebrick;
+  background-color: pink;
+}
+
+.cquery:hover{
+  border-color: firebrick;
+  background-color: pink;
+}
